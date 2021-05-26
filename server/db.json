@@ -1,0 +1,15 @@
+{
+  "badges": [
+    {
+      "header_picture": "https://images.pexels.com/photos/3560168/pexels-photo-3560168.jpeg?auto=compress&bri=-10&cs=tinysrgb&fit=crop&fp-y=0.2&h=500&sharp=10&w=1400",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQibg5f0fBrTxJSacQUfseRAN27xwQD9tId5Q&usqp=CAU",
+      "name": "Maria",
+      "age": "19",
+      "city": "Chihuahua",
+      "followers": "",
+      "likes": "",
+      "post": "",
+      "id": 1
+    }
+  ]
+}

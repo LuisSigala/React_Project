@@ -1,17 +1,22 @@
 import React from 'react' 
+import{ BrowserRouter, Route, Switch} from "react-router-dom"
 import Layout from "./pages/layout/Layout"
 import Main from "./pages/main/Main"
-import Badge from "./components/Badge"
 import NewBadge from "./pages/NewBadge/NewBadge"
+
 
 function App() {
   return (
-   <React.Fragment>
-     <Layout>
-       <NewBadge></NewBadge>
-     </Layout>
-   </React.Fragment>
+    <BrowserRouter>
+      <Layout>
+        <Switch>
+          <Route exact path="/" component={Main}></Route>
+          <Route exact path="/new" component={NewBadge}></Route>
+          <Route component={Error}></Route>
+        </Switch>
+      </Layout>
+    </BrowserRouter>
   );
-};
+}
 
 export default App;

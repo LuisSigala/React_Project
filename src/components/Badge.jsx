@@ -10,7 +10,7 @@ class Badge extends Component{
     render(){
         return(
          <React.Fragment>
-             <div className="Badge m-5">
+             <div className="Badge m-5 col-4">
                 <div className="Badge__header">
                     <img src={this.props.header_picture} alt="header background"/>
                 </div>
