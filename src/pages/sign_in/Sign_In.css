@@ -1,0 +1,15 @@
+
+.contain{
+    margin-top: 250px;
+    align-content: center;
+    text-align: left;
+    height: 60px;
+    width: 20%;
+    
+}
+.for{
+    background-color: aqua;
+}
+.btn{
+    position: center;
+}
