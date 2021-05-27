@@ -16,6 +16,7 @@ function App() {
           <Route exact path="/new" component={NewBadge}></Route>
           <Route exact path="/Sign_in" component={Sign_In}></Route>
           <Route exact path="/Login" component={Login}></Route>
+          <Route exact path="/Error" component={Not_Found}></Route>
           <Route component={Error}></Route>
         </Switch>
       </Layout>
