@@ -4,6 +4,7 @@ import Layout from "./pages/layout/Layout"
 import Main from "./pages/main/Main"
 import Sign_In from "./pages/sign_in/Sign_In"
 import Login from "./pages/login/Login"
+import Not_Found from "./pages/not_found/Not_Found"
 import NewBadge from "./pages/NewBadge/NewBadge"
 
 

@@ -6,7 +6,9 @@ class Not_Found extends React.Component{
     render(){
         return(
             <React.Fragment>
-               
+                <center>            
+                    <img src="https://onlinezebra.com/wp-content/uploads/2019/01/error-404-not-found.jpg" alt="" className="notfound"/>
+                </center> 
             </React.Fragment>
         );
     }
