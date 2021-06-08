@@ -12,8 +12,8 @@ class NewBadge extends React.Component{
         loading : false,
         error: null,
         form:{
-            header_picture: "",
-            profile_picture: "",
+            header_img_url: "",
+            profile_picture_url: "",
             name: "",
             age: "",
             city: "",
@@ -40,7 +40,7 @@ class NewBadge extends React.Component{
         try {
             await api.badges.create(this.state.form)
             this.setState({loadign:false, error:null})
-            this.props.history.push("/")
+            this.props.history.push("/badges")
         } catch (error) {
             this.setState({loading:false, error:error})
         }
@@ -53,8 +53,8 @@ class NewBadge extends React.Component{
                 <div className="container">
                     <div className="row">
                         <Badge
-                            header_picture = {this.state.form.header_picture || "https://images.freeimages.com/images/small-previews/89a/one-tree-hill-1360813.jpg"}
-                            profile_picture = {this.state.form.profile_picture || "https://www.gravatar.com/avatar/205e460b479e8e5b48aec07710c08d50"}
+                            header_img_url = {this.state.form.header_img_url || "https://images.freeimages.com/images/small-previews/89a/one-tree-hill-1360813.jpg"}
+                            profile_picture_url = {this.state.form.profile_picture_url || "https://www.gravatar.com/avatar/205e460b479e8e5b48aec07710c08d50"}
                             name = {this.state.form.name || "Name LastName"}
                             age = {this.state.form.age || "XX"}
                             city = {this.state.form.city || "State Country"}
