@@ -28,7 +28,7 @@ class BadgeForm extends React.Component{
                               className="form-control"
                               name="profile_picture"
                               onChange={this.props.onChange}
-                              value={this.props.formValues.profile_picture}
+                              value={this.props.formValues.profile_picture_url}
                             />
                             <div className="form-group mb-2">
                             <label className="mb-1">
@@ -39,7 +39,7 @@ class BadgeForm extends React.Component{
                               className="form-control"
                               name="header_picture"
                               onChange={this.props.onChange}
-                              value={this.props.formValues.header_picture}
+                              value={this.props.formValues.header_img_url}
                             />
                             </div>
                             <div className="form-group mb-2">
